@@ -1,0 +1,757 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+
+body {
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+a{
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content button {
+    width: 100px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: 700;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+table {
+    width: 100%;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    margin: 0 10%;
+    display: flex;
+    background-color: white;
+    z-index: 2;
+}
+
+.content {
+    width: 100%;
+    margin: 0 10%;
+}
+
+.nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav .col-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav .col-4 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav .col-9 {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav button {
+    background-color: white;
+    border: 2px solid #5072cc;
+    width: 10vw;
+    height: 40px;
+    transition-duration: 0.4s;
+}
+
+.nav button:hover {
+    background-color: #5072cc;
+    color: white;
+}
+.menu {
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: black;
+}
+.menu a {
+    margin-right: 71px;
+    text-decoration: none;
+    color: black;
+}
+.menu a:last-child {
+    margin-right: 0;
+}
+
+.header {
+    position: relative;
+}
+.logo_image{
+    position: absolute;
+    width: 127px;
+    height: 67px;
+    left: 150px;
+    top: 6px;
+}
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    padding: 10px 52px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    right: 150px;
+}
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #5072cc;
+}
+
+.button1:hover {
+    background-color: #5072cc;
+    color: white;
+}
+.Characters{
+    position: absolute;
+    left: 160px;
+    top: 120px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.isagi{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 160px;
+    top: 190px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.nagi{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 404px;
+    top: 190px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.bachira{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 648px;
+    top: 190px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.chigiri{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 892px;
+    top: 190px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.isagi:hover {
+    transform: scale(1.1);
+}
+.nagi:hover {
+    transform: scale(1.1);
+}
+.bachira:hover {
+    transform: scale(1.1);
+}
+.chigiri:hover {
+    transform: scale(1.1);
+}
+.ISAGI{
+    position: absolute;
+    width: 156px;
+    height: 36px;
+    left: 196px;
+    top: 520px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.NAGI{
+    Position: absolute;
+    width: 185px;
+    height: 36px;
+    left: 425px;
+    top: 520px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.BACHIRA{
+    position: absolute;
+    width: 221px;
+    height: 36px;
+    left: 651px;
+    top: 520px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+.CHIGIRI{
+    position: absolute;
+    width: 212px;
+    height: 36px;
+    left: 900px;
+    top: 520px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.Blue_logo{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 352px;
+    height: 87px;
+    left: 160px;
+    top: 1950px;
+}
+.im12{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 160px;
+    top: 600px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im22{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 404px;
+    top: 600px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im32{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 648px;
+    top: 600px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im42{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 892px;
+    top: 600px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im12:hover {
+    transform: scale(1.1);
+}
+.im22:hover {
+    transform: scale(1.1);
+}
+.im32:hover {
+    transform: scale(1.1);
+}
+.im42:hover {
+    transform: scale(1.1);
+}
+.REO{
+    position: absolute;
+    width: 156px;
+    height: 36px;
+    left: 196px;
+    top: 930px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.RIN{
+    Position: absolute;
+    width: 185px;
+    height: 36px;
+    left: 425px;
+    top: 930px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.SAE{
+    position: absolute;
+    width: 221px;
+    height: 36px;
+    left: 651px;
+    top: 930px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+.EGO{
+    position: absolute;
+    width: 212px;
+    height: 36px;
+    left: 900px;
+    top: 930px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.im13{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 160px;
+    top: 1010px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im23{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 404px;
+    top: 1010px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im33{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 648px;
+    top: 1010px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im43{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 892px;
+    top: 1010px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im13:hover {
+    transform: scale(1.1);
+}
+.im23:hover {
+    transform: scale(1.1);
+}
+.im33:hover {
+    transform: scale(1.1);
+}
+.im43:hover {
+    transform: scale(1.1);
+}
+.BAROU{
+    position: absolute;
+    width: 220px;
+    height: 36px;
+    left: 196px;
+    top: 1340px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.TOKIMITSU{
+    Position: absolute;
+    width: 220px;
+    height: 36px;
+    left: 425px;
+    top: 1340px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.KIRA{
+    position: absolute;
+    width: 221px;
+    height: 36px;
+    left: 651px;
+    top: 1340px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+.LEMON{
+    position: absolute;
+    width: 212px;
+    height: 36px;
+    left: 900px;
+    top: 1340px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.im14{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 160px;
+    top: 1420px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im24{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 404px;
+    top: 1420px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im34{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 648px;
+    top: 1420px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im44{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 892px;
+    top: 1420px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im14:hover {
+    transform: scale(1.1);
+}
+.im24:hover {
+    transform: scale(1.1);
+}
+.im34:hover {
+    transform: scale(1.1);
+}
+.im44:hover {
+    transform: scale(1.1);
+}
+.NARUHAYA{
+    position: absolute;
+    width: 220px;
+    height: 36px;
+    left: 170px;
+    top: 1750px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.KUNIGAMI{
+    Position: absolute;
+    width: 250px;
+    height: 36px;
+    left: 400px;
+    top: 1750px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.WANIMA{
+    position: absolute;
+    width: 221px;
+    height: 36px;
+    left: 660px;
+    top: 1750px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+.ARYUU{
+    position: absolute;
+    width: 212px;
+    height: 36px;
+    left: 900px;
+    top: 1750px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.im15{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 160px;
+    top: 1830px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im25{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 404px;
+    top: 1830px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.im35{
+    position: absolute;
+    width: 228px;
+    height: 330px;
+    left: 648px;
+    top: 1830px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.im15:hover {
+    transform: scale(1.1);
+}
+.im25:hover {
+    transform: scale(1.1);
+}
+.im35:hover {
+    transform: scale(1.1);
+}
+
+.RAISHI{
+    position: absolute;
+    width: 156px;
+    height: 36px;
+    left: 196px;
+    top: 2160px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.BURATSUTO{
+    Position: absolute;
+    width: 185px;
+    height: 36px;
+    left: 425px;
+    top: 2160px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.GIGAMARU{
+    position: absolute;
+    width: 221px;
+    height: 36px;
+    left: 651px;
+    top: 2160px;
+
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.else_link{
+    position: absolute;
+    left: 163px;
+    top: 2350px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 1400;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #000000;
+}
+.else_contact{
+    position: absolute;
+    left: 163px;
+    top: 2400px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+
+    color: #000000;
+}
+.a2013{
+    position: absolute;
+    left: 1068px;
+    top: 2460px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+

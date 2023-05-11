@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    padding: 0 10%;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+}
+
+
+
+.nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav .col-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav .col-4 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav .col-9 {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav button {
+    background-color: white;
+    border: 2px solid #5072cc;
+    width: 10vw;
+    height: 40px;
+    transition-duration: 0.4s;
+}
+
+.nav button:hover {
+    background-color: #5072cc;
+    color: white;
+}
+
+.bg {
+    padding: 0 10%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/head.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    color: white;
+}
+
+.bg h1 {
+    font-weight: 400;
+    font-size: 96px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.bg h2 {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.bg button {
+    padding: 10px 52px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #5072cc;
+    color: white;
+    border: 2px solid #5072cc;
+}
+
+.bg button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #5072cc;
+}
+
+.content {
+    margin: 3% 10%;
+
+}
+
+.content img {
+    width: 100%;
+}
+
+.content h1 {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.content p {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 180%;
+}
+
+.characters {
+    margin: 3% 10%;
+}
+
+.character {
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.characters img {
+    width: 100%;
+}
+
+.character:hover {
+    transform: scale(1.1);
+}
+
+.characters h2 {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.characters h3 {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: underline;
+    color: black;
+}
+
+.description {
+    margin: 0 10%;
+}
+
+
+
+.description .col-5 img {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.description img {
+    width: 100%;
+}
+
+.description p {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+}
+
+.footer {
+    margin: 0 10%;
+}
+
+.footer h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+

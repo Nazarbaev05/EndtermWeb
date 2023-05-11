@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="RU">
+<head>
+    <meta charset="UTF-8">
+    <title>Blue Lock Characters</title>
+    <link rel="stylesheet" href="../css/styleC.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row nav">
+        <div class="col-3 d-flex justify-content-start align-items-center">
+            <a href="../index.html"><img style="height: 67px; width: 127px" src="../images/logo.png" alt=""></a>
+        </div>
+        <div class="col-9">
+            <div class="row w-100">
+                <div class="col-2">
+                    <a href="">News</a>
+                </div>
+                <div class="col-2">
+                    <a href="">Characters</a>
+                </div>
+                <div class="col-2">
+                    <a href="">Movie</a>
+                </div>
+                <div class="col-2">
+                    <a href="">Special</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                    <a href="">
+                        <button>Read Manga</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row content" style="height: 100px">
+        <div class="col-12">
+            <h2>Characters</h2>
+        </div>
+        <div class="col-12">
+            <a href="/add"><button>Add</button></a>
+            <a href="/delete"><button>Delete</button></a>
+            <a href="/update"><button>Update</button></a>
+        </div>
+        <div class="col-6">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Age</th>
+                        <th>Height</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{range .}}
+                    <tr>
+                        <td>{{.Id}}</td>
+                        <td>{{.Fn}}</td>
+                        <td>{{.Ln}}</td>
+                        <td>{{.Age}}</td>
+                        <td>{{.Height}}</td>
+                    </tr>
+                    {{end}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
